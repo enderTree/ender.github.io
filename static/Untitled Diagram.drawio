@@ -1,1 +1,57 @@
-<mxfile host="app.diagrams.net" modified="2021-04-19T03:04:36.285Z" agent="5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/88.0.4324.190 Safari/537.36" version="14.6.1" etag="uwtesF-aqMQ3lyODwEZL" type="github"><diagram id="10RFRvjwg835ByNtIkdp">UzV2zq1wL0osyPDNT0nNUTV2VTV2LsrPL4GwciucU3NyVI0MMlNUjV1UjYwMgFjVyA2HrCFY1qAgsSg1rwSLBiADYTaQg2Y1AA==</diagram></mxfile>
+<mxfile host="app.diagrams.net" modified="2021-04-19T03:17:32.456Z" agent="5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/88.0.4324.190 Safari/537.36" etag="nISGctFAej3MhPFjr6je" version="14.6.1" type="github">
+  <diagram id="10RFRvjwg835ByNtIkdp" name="第 1 页">
+    <mxGraphModel dx="1422" dy="772" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
+      <root>
+        <mxCell id="0" />
+        <mxCell id="1" parent="0" />
+        <mxCell id="IsrT7AYUqAkeJM6jxG7I-7" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0.5;entryY=0;entryDx=0;entryDy=0;" edge="1" parent="1" source="IsrT7AYUqAkeJM6jxG7I-5" target="IsrT7AYUqAkeJM6jxG7I-6">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="IsrT7AYUqAkeJM6jxG7I-5" value="批量生成dataworks任务开始" style="strokeWidth=2;html=1;shape=mxgraph.flowchart.start_1;whiteSpace=wrap;" vertex="1" parent="1">
+          <mxGeometry x="308" y="80" width="100" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="IsrT7AYUqAkeJM6jxG7I-9" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0.5;exitY=1;exitDx=0;exitDy=0;entryX=0.5;entryY=0;entryDx=0;entryDy=0;entryPerimeter=0;" edge="1" parent="1" source="IsrT7AYUqAkeJM6jxG7I-6" target="IsrT7AYUqAkeJM6jxG7I-8">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="IsrT7AYUqAkeJM6jxG7I-6" value="&lt;span&gt;文件夹、文件列表、文件对应类型、文件对应内容&lt;/span&gt;" style="shape=parallelogram;html=1;strokeWidth=2;perimeter=parallelogramPerimeter;whiteSpace=wrap;rounded=1;arcSize=12;size=0.23;" vertex="1" parent="1">
+          <mxGeometry x="308" y="200" width="100" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="IsrT7AYUqAkeJM6jxG7I-11" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=1;exitY=0.5;exitDx=0;exitDy=0;exitPerimeter=0;" edge="1" parent="1" source="IsrT7AYUqAkeJM6jxG7I-8" target="IsrT7AYUqAkeJM6jxG7I-10">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="IsrT7AYUqAkeJM6jxG7I-12" value="N" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];" vertex="1" connectable="0" parent="IsrT7AYUqAkeJM6jxG7I-11">
+          <mxGeometry x="-0.2857" relative="1" as="geometry">
+            <mxPoint as="offset" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="IsrT7AYUqAkeJM6jxG7I-14" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="IsrT7AYUqAkeJM6jxG7I-8" target="IsrT7AYUqAkeJM6jxG7I-13">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="IsrT7AYUqAkeJM6jxG7I-8" value="文件夹是否存在" style="strokeWidth=2;html=1;shape=mxgraph.flowchart.decision;whiteSpace=wrap;" vertex="1" parent="1">
+          <mxGeometry x="308" y="310" width="100" height="100" as="geometry" />
+        </mxCell>
+        <mxCell id="IsrT7AYUqAkeJM6jxG7I-15" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0.5;exitY=1;exitDx=0;exitDy=0;" edge="1" parent="1" source="IsrT7AYUqAkeJM6jxG7I-10" target="IsrT7AYUqAkeJM6jxG7I-13">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="IsrT7AYUqAkeJM6jxG7I-10" value="创建文件夹(目录层级)" style="rounded=1;whiteSpace=wrap;html=1;absoluteArcSize=1;arcSize=14;strokeWidth=2;" vertex="1" parent="1">
+          <mxGeometry x="520" y="310" width="100" height="100" as="geometry" />
+        </mxCell>
+        <mxCell id="IsrT7AYUqAkeJM6jxG7I-17" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0.5;entryY=0;entryDx=0;entryDy=0;" edge="1" parent="1" source="IsrT7AYUqAkeJM6jxG7I-13" target="IsrT7AYUqAkeJM6jxG7I-16">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="IsrT7AYUqAkeJM6jxG7I-13" value="循环创建文件，获取文件类型、文件id和文件夹id" style="rounded=1;whiteSpace=wrap;html=1;absoluteArcSize=1;arcSize=14;strokeWidth=2;" vertex="1" parent="1">
+          <mxGeometry x="308" y="470" width="100" height="100" as="geometry" />
+        </mxCell>
+        <mxCell id="IsrT7AYUqAkeJM6jxG7I-19" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0.5;exitY=1;exitDx=0;exitDy=0;entryX=0.5;entryY=0;entryDx=0;entryDy=0;entryPerimeter=0;" edge="1" parent="1" source="IsrT7AYUqAkeJM6jxG7I-16" target="IsrT7AYUqAkeJM6jxG7I-18">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="IsrT7AYUqAkeJM6jxG7I-16" value="循环填入文件内容" style="rounded=1;whiteSpace=wrap;html=1;absoluteArcSize=1;arcSize=14;strokeWidth=2;" vertex="1" parent="1">
+          <mxGeometry x="308" y="640" width="100" height="100" as="geometry" />
+        </mxCell>
+        <mxCell id="IsrT7AYUqAkeJM6jxG7I-18" value="结束" style="strokeWidth=2;html=1;shape=mxgraph.flowchart.start_1;whiteSpace=wrap;" vertex="1" parent="1">
+          <mxGeometry x="308" y="820" width="100" height="60" as="geometry" />
+        </mxCell>
+      </root>
+    </mxGraphModel>
+  </diagram>
+</mxfile>
